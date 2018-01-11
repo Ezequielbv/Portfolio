@@ -1,0 +1,72 @@
+* {
+box-sizing: border-box;  
+}
+
+body {
+	background-image: url(../img/img1.jpeg);
+	background-size: cover;
+  	background-attachment: fixed;
+	background-color: silver;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/************* HEADER *************/
+#header-nav {
+	position: fixed;
+	border-radius: 0;
+	border: 0;
+	width: 100%;
+}
+nav {
+	z-index: 1;
+	background-color: rgba(237, 237, 242, 0.5);
+}
+nav a{
+	color: #34383f;
+}
+nav a:link, nav a:hover {
+	color: grey;
+	text-decoration: none;	
+}
+ul {
+	list-style: none;
+}
+/************* Home *************/
+.jumbotron {
+	background-color: transparent;
+	padding-top: 35%;
+	color: rgb(237, 237, 242);
+}
+
+/************* About *************/
+h4 {
+	text-align: center;
+}
+#about {
+	background-color: white;
+	/*height: 400px;*/
+}
+#story, #skills {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.progress-bar {
+  background-color: #99b6e5;
+}
+
+/************* About *************/
+#resume {
+  background-color: rgba(21, 24, 28, 0.5);
+  width: 100%;
+  color: white;
+  margin-bottom: 10em;
+}
+
+/************* FOOTER *************/
+.panel-footer {
+  color: silver;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #222;
+  border-top: 0;
+}
