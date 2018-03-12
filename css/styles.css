@@ -11,15 +11,16 @@ body {
 }
 
 /************* HEADER *************/
-#header-nav {
+#header {
 	position: fixed;
 	border-radius: 0;
 	border: 0;
 	width: 100%;
+	background-color: rgba(237, 237, 242, 0.9);
+
 }
 nav {
 	z-index: 1;
-	background-color: rgba(237, 237, 242, 0.5);
 }
 nav a{
 	color: #34383f;
@@ -31,6 +32,15 @@ nav a:link, nav a:hover {
 ul {
 	list-style: none;
 }
+h4 {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+h5 {
+	font-size: 1.2em;
+}
 /************* Home *************/
 .jumbotron {
 	background-color: transparent;
@@ -39,12 +49,12 @@ ul {
 }
 
 /************* About *************/
-h4 {
-	text-align: center;
-}
 #about {
 	background-color: white;
 	/*height: 400px;*/
+}
+#about .row {
+	margin-bottom: 3em;
 }
 #story, #skills {
 	padding-left: 5%;
@@ -54,19 +64,36 @@ h4 {
   background-color: #99b6e5;
 }
 
-/************* About *************/
-#resume {
-  background-color: rgba(21, 24, 28, 0.5);
-  width: 100%;
-  color: white;
-  margin-bottom: 10em;
+/************* Portfolio *************/
+#portfolio {
+	background-color: grey;
+}
+#portfolio .row {
+	margin-bottom: 3em;
 }
 
+/************* Resume *************/
+#resume {
+	background-color: rgba(21, 24, 28, 0.5);
+	width: 100%;
+	color: white;
+	padding-bottom: 2em;
+}
+.studies {
+	padding-left: 4rem;
+}
+
+#contact {
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
 /************* FOOTER *************/
 .panel-footer {
-  color: silver;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #222;
-  border-top: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	height: 1em;
+	background-color: #222;
+	border-top: 0;  
+	color: silver;
+	font-size: .8em;
 }
